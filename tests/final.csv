@@ -1,0 +1,4 @@
+CustomerID,CustomerName,ContactName,Address	City,PostalCode	Country,OrderID,EmployeeID,OrderDate,ShipperID
+2,Ana Trujillo Emparedados y helados,Ana Trujillo,Avda. de la Constitución 2222	México D.F.,5021.0,10308,7,1996-09-18,3
+37,,,,,10309,3,1996-09-19,1
+77,,,,,10310,8,1996-09-20,2

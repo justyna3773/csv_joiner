@@ -1,4 +1,4 @@
-
+#!/usr/bin/env python3
 import join_with_pandas
 import sys
 

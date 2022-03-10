@@ -19,13 +19,9 @@ class csv_joiner:
     def join(self):
         dataTypeObj1 = self.df1.dtypes
         dataTypeObj2 = self.df2.dtypes
-        print(dataTypeObj1)
-        print(self.df1)
-        print(self.df2)
         if dataTypeObj1[self.col_name] != dataTypeObj2[self.col_name]:
             self.df2[self.col_name] = self.df2[self.col_name].astype(
                 dataTypeObj1[self.col_name])
-        print(self.df2.dtypes)
         if self.type == "inner":
             self.inner_join()
         elif self.type == "left":
